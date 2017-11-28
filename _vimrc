@@ -12,6 +12,13 @@ endif
 set backupdir=c:\\tmp,c:\\temp
 set undodir=c:\\tmp,c:\\temp
 set dir=c:\\tmp,c:\\temp
+set autochdir
+
+cnoremap %% <C-R>=fnameescape(expand('%:h')).'/'<cr>
+map <leader>ew :e %%
+map <leader>es :sp %%
+map <leader>ev :vsp %%
+map <leader>et :tabe %%
 
 set cpoptions+=*
 set guifont=Envy_Code_R:h11:cANSI
