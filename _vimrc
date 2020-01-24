@@ -3,7 +3,9 @@ set nocompatible
 set encoding=utf-8
 set spell spelllang=en_us
 set spellfile=$HOME/vimfiles/spellfile.en_us.add
-colo solarized
+set termguicolors
+colo zellner
+set diffopt+=iwhite
 if has('gui_running')
     set background=light
 else
@@ -29,6 +31,7 @@ set clipboard=unnamed
 set hidden
 set nu
 set rnu
+set scrolloff=5
 cd $HOME\\Documents
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
