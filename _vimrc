@@ -34,10 +34,10 @@ set rnu
 set scrolloff=5
 cd $HOME\\Documents
 source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
+"source $VIMRUNTIME/mswin.vim
 source $HOME/vimfiles/tomjebo.vim
 
-behave mswin
+"behave mswin
 
 "execute pathogen#infect()
 filetype off
