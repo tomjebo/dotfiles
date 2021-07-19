@@ -2,7 +2,7 @@ let mapleader=","
 set nocompatible
 set encoding=utf-8
 set spell spelllang=en_us
-set spellfile=$HOME/vimfiles/spellfile.en_us.add
+set spellfile=$HOME/vimfiles/spellfile.en-us.add
 set termguicolors
 colo zellner
 set diffopt+=iwhite
